@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanroom_spawnlightgrid",
+  "version": "${version}",
+  "name": "Spawn Light Grid CleanRoom",
+  "description": "Client-side visual spawn indicator overlay adhering to 1.18+ block light 0 rules.",
+  "authors": [
+    "CleanRoom Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cleanroom/minecraft_mod_ports"
+  },
+  "license": "MIT",
+  "icon": "assets/cleanroom_spawnlightgrid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cleanroom.lightgrid.fabric.SpawnLightGridFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20 <=1.21.3",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[21,)"
+license="MIT"
+issueTrackerURL="https://github.com/cleanroom/minecraft_mod_ports/issues"
+
+[[mods]]
+modId="cleanroom_spawnlightgrid"
+version="${version}"
+displayName="Spawn Light Grid CleanRoom"
+description="Client-side visual spawn indicator overlay adhering to 1.18+ block light 0 rules."
+authors="CleanRoom Team"
+logoFile="assets/cleanroom_spawnlightgrid/icon.png"
+
+[[dependencies.cleanroom_spawnlightgrid]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cleanroom_spawnlightgrid]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.1,1.21.4)"
+    ordering="NONE"
+    side="BOTH"
